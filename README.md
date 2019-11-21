@@ -1,5 +1,5 @@
 # compile-me
-This script helps avoid having to set up a compiler in your preffered IDE or manually entering compile parameters into your Linux terminal every time you want to compile and run your project.
+This script helps avoid having to set up a compiler in your preferred IDE or manually entering compile parameters into your Linux terminal every time you want to compile and run your project.
 
 # Usage
 Clone this repository and place compile.py in the directory of the C/C++ project that you would like to compile and run. In compile.py edit the following as needed:

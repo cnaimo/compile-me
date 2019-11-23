@@ -1,3 +1,4 @@
+[![HitCount](http://hits.dwyl.io/cnaimo/compile-me.svg)](http://hits.dwyl.io/cnaimo/compile-me)
 # compile-me
 This script helps avoid having to set up a compiler in your preferred IDE or manually entering compile parameters into your Linux terminal every time you want to compile and run your project.
 

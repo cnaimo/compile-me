@@ -1,7 +1,10 @@
 # compile-me
-[![GitHub release](https://img.shields.io/github/release/Naereen/StrapDown.js.svg)](https://github.com/cnaimo/compile-me/releases/)  [![HitCount](http://hits.dwyl.io/cnaimo/compile-me.svg)](http://hits.dwyl.io/cnaimo/compile-me) [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![GitHub pull-requests](https://img.shields.io/github/issues-pr/Naereen/StrapDown.js.svg)](https://github.com/cnaimo/compile-me/pull/)  [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/cnaimo/compile-me/issues/)
+[![HitCount](http://hits.dwyl.io/cnaimo/compile-me.svg)](http://hits.dwyl.io/cnaimo/compile-me) [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![GitHub pull-requests](https://img.shields.io/github/issues-pr/Naereen/StrapDown.js.svg)](https://github.com/cnaimo/compile-me/pull/)  [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/cnaimo/compile-me/issues/)
 
 This script helps avoid having to set up a compiler in your preferred IDE or manually entering compile parameters into your Linux terminal every time you want to compile and run your project.
+
+# v1.1.0-alpha is out!
+Check it out in the releases tab. Additional functionality is included to compile your own libraries and it is more stable with longer compile times.
 
 # Usage
 Clone this repository and place compile.py in the directory of the C/C++ project that you would like to compile and run. In compile.py edit the following as needed:

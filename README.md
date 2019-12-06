@@ -20,4 +20,4 @@ Run compile.py in Linux terminal in the directory of your project:
 cd /your/project/directory
 python3 compile.py
 ```
-Press the "enter" key when you're ready to compile and run your project. If you project takes some time to compile, you may need to use v1.1.0-alpha. You can keep this script running in the background while you work on your projects and use it to re-compile and run as needed. Any changes in compile.py will require you to restart compile.py in the terminal. You can stop the script via KeyboardInterrupt by pressing 'ctrl' + 'c' or simply exit out the terminal.
+Press the "enter" key when you're ready to compile and run your project. If you project takes some time to compile, you may need to use v1.1.0-alpha. You can keep this script running in the background while you work on your projects and use it to re-compile and run as needed. Any changes in compile.py will require you to restart compile.py in the terminal. You can stop the script via KeyboardInterrupt by pressing 'ctrl' + 'c' or simply exit out the terminal. The 'ctrl' + 'c' combination can also be used to quit the C/C++ program while it is running.

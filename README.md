@@ -23,4 +23,4 @@ python3 compile.py
 ```
 Press the "enter" key when you're ready to compile and run your project. You can keep this script running in the background while you work on your projects and use it to re-compile and run as needed. You can stop the script via KeyboardInterrupt by pressing 'ctrl' + 'c' or simply exit out the terminal. The 'ctrl' + 'c' combination can also be used to quit the C/C++ program while it is running.
 
-When promped with ```Compile and run me? (ENTER)```, entering ```sudo run``` or ```disable sudo``` will enable and disable sudo for executing your compiled project, respectively. Any changes made in compile.py will not take effect until compile.py is restarted in the Linux Terminal.
+When promped with ```Compile and run me? (ENTER)```, entering ```sudo run``` or ```disable sudo``` will enable and disable sudo for executing your compiled project, respectively. Sudo is disabled by default. Any changes made in compile.py will not take effect until compile.py is restarted in the Linux Terminal.

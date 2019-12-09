@@ -4,7 +4,7 @@ import platform
 
 
 compiler = 'g++' # g++ for C++, gcc for C
-file_to_compile = 'example.cpp' 
+file_to_compile = 'example.cpp' # your main cpp/c file here
 libraries_to_link = ['curl', 'jsoncpp'] # add any required libraries here
 libraries_that_need_compiling = ['my_library.cpp'] # any cpp/c libraries in your project that you need compiled and linked
 
@@ -47,8 +47,10 @@ if __name__ == "__main__":
 				quit()
 			if response == 'y':
 				break
+	enable_sudo = False
 	while True:
-		if input('Compile and run me? (ENTER)') == '':
+		user_input = input('Compile and run me? (ENTER)')
+		if user_input == '':
 			print('Here we go!', '\n________________________________________________________\n')
 			try:
 				if libraries_that_need_compiling:
@@ -60,7 +62,16 @@ if __name__ == "__main__":
 				print('\nCompiling main:', file_to_compile)
 				execute(compiler + ' ' + file_to_compile + libstring + astring)
 				print('Compiled project successfully! Running...\n')
-				os.system('./a.out')
+				if enable_sudo:
+					os.system('sudo ./a.out')
+				else:
+					os.system('./a.out')
 			except CompileError:
 				continue
 			print('\n________________________________________________________\nAll done!')
+		elif user_input == 'sudo run':
+			print('SUDO ENABLED')
+			enable_sudo = True
+		elif user_input == 'disable sudo':
+			print('SUDO DISABLED')
+			enable_sudo = False

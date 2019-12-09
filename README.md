@@ -11,7 +11,7 @@ Clone this repository and place compile.py in the directory of the C/C++ project
 
 ```python
 compiler = 'g++' # g++ for C++, gcc for C
-file_to_compile = 'example.cpp' 
+file_to_compile = 'example.cpp' # your main cpp file here
 libraries_to_link = ['curl', 'jsoncpp'] # add any required libraries here, if none then leave as []
 libraries_that_need_compiling = ['my_library.cpp'] # any cpp/c libraries in your project that you need compiled and linked
 ```

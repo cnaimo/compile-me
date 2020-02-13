@@ -3,8 +3,8 @@
 
 This script helps avoid having to set up a compiler in your preferred IDE or manually entering compile parameters into your Linux terminal every time you want to compile and run your project.
 
-# v1.2.0 is out!
-Check it out in the releases tab. Additional functionality is included to enable/disable sudo command for running your compiled C/C++ project. I believe GCC/G++ utilizes identical commands on mac, if anyone can confirm mac compatibility that would be a major help.
+# v1.2.1 is out!
+Check it out in the releases tab. Patched the main file compile command to avoid errors in GCC/G++.
 
 # Usage
 Clone this repository and place compile.py in the directory of the C/C++ project that you would like to compile and run. In compile.py edit the following as needed:

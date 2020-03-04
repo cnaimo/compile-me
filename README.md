@@ -3,8 +3,8 @@
 
 This script helps avoid having to set up a compiler in your preferred IDE or manually entering compile parameters into your Linux terminal every time you want to compile and run your project.
 
-# v1.2.1 is out!
-Check it out in the releases tab. Patched the main file compile command to avoid errors in GCC/G++.
+# v1.3.0 is out!
+Check it out in the releases tab. Added option to skip over compiling project libraries.
 
 # Usage
 Clone this repository and place compile.py in the directory of the C/C++ project that you would like to compile and run. In compile.py edit the following as needed:
@@ -23,4 +23,4 @@ python3 compile.py
 ```
 Press the "enter" key when you're ready to compile and run your project. You can keep this script running in the background while you work on your projects and use it to re-compile and run as needed. You can stop the script via KeyboardInterrupt by pressing 'ctrl' + 'c' or simply exit out the terminal. The 'ctrl' + 'c' combination can also be used to quit the C/C++ program while it is running.
 
-When promped with ```Compile and run me? (ENTER)```, entering ```sudo run``` or ```disable sudo``` will enable and disable sudo for executing your compiled project, respectively. Sudo is disabled by default. Any changes made in compile.py will not take effect until compile.py is restarted in the Linux Terminal.
+When promped with ```Compile and run me? (ENTER)```, entering ```sudo run``` or ```disable sudo``` will enable and disable sudo for executing your compiled project, respectively. Sudo is disabled by default. Entering ```skip``` will jump to compiling and running the main project file. Any changes made in compile.py will not take effect until compile.py is restarted in the Linux Terminal.
